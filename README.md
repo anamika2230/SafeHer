@@ -1,50 +1,44 @@
-# Welcome to your Expo app 👋
+# 🚨 SafeHer — Your safety, always.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+SafeHer is an AI-powered women’s safety app built to provide **quick help in emergency situations**.
 
-## Get started
+The idea is simple — in real life, people don’t always get the chance to press an SOS button.  
+So SafeHer tries to **detect danger, send alerts, and get help faster**.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## ✨ What it does
 
-2. Start the app
+- 🚨 SOS alerts with live location  
+- 🤖 AI-based distress detection (voice + context)  
+- 📍 Real-time tracking  
+- 👥 Nearby volunteer support  
+- 🗺️ Safer route suggestions  
+- 💬 Emotional support (AI + helplines)  
+- 📊 Incident history & reports  
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🧠 How it works
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+1. User is in a risky situation  
+2. SOS is triggered (manually or automatically)  
+3. App shares location + sends alerts  
+4. Contacts and nearby volunteers are notified  
+5. User gets support even after the incident  
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🛠️ Built with
 
-When you're ready, run:
+- React Native (Expo)  
+- FastAPI (AI backend)  
+- Maps + location services  
+
+---
+
+## 🚀 Run locally
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+npm install
+npx expo start
